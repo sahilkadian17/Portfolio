@@ -7,11 +7,11 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 145; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
-    --first-color: hsl(var(--hue-color), 69%, 61%);
-    --first-color-second: hsl(var(--hue-color), 69%, 61%);
+    --first-color: hsl(var(--hue-color), 30%, 51%);
+    --first-color-second: hsl(var(--hue-color), 30%, 21%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
@@ -461,13 +461,13 @@ img {
     width: 80%;
 }
 .skills__css{
-    width: 80%;
+    width: 70%;
 }
 .skills__js{
-    width: 80%;
+    width: 50%;
 }
 .skills__react{
-    width: 80%;
+    width: 40%;
 }
 .skills__php{
     width: 80%;
@@ -576,7 +576,7 @@ img {
 }
 
 .portfolio__img{
-    width: 265px;
+    width: auto;
     border-radius: .5rem;
     justify-self: center;
 }
@@ -805,7 +805,7 @@ img {
         order: 1;
         justify-self: center;
     }
-    .about__container, .skills__container, .contact__container, .footer__container{
+    .about__container, .contact__container, .footer__container{
         grid-template-columns: repeat(2,1fr);
     }
     .qualification__sections{
